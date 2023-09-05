@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TSL25853PM")(type "KiCad")(uri "C:/Users/Niki/Downloads/LIB_TSL25853PM/TSL25853PM/KiCad/TSL25853PM.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8212DSGR")(type "KiCad")(uri "C:/Users/Niki/Downloads/LIB_DRV8212DSGR/DRV8212DSGR/KiCad/DRV8212DSGR.kicad_sym")(options "")(descr ""))
+)
