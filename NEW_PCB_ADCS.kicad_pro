@@ -328,6 +328,14 @@
       ""
     ],
     [
+      "a2302b29-f7b9-40b9-a30f-4dcfdceb0594",
+      "I2C Multiplexer"
+    ],
+    [
+      "8584c500-e681-4774-8e2d-f320630e3d46",
+      "Connectors"
+    ],
+    [
       "00000000-0000-0000-0000-00005a285e0e",
       "Data Logging"
     ],
@@ -340,10 +348,6 @@
       "Magnetorquer"
     ],
     [
-      "fb1ce4d2-48e3-4325-9179-fbdd6ca04d86",
-      "Sun Sensor"
-    ],
-    [
       "00000000-0000-0000-0000-00005a289551",
       "PQ Bus"
     ],
@@ -352,8 +356,8 @@
       "IMU"
     ],
     [
-      "5273d8f8-20b1-4e35-a8b6-8974a989eb5e",
-      "Magnetometer"
+      "fb1ce4d2-48e3-4325-9179-fbdd6ca04d86",
+      "Sun Sensor"
     ]
   ],
   "text_variables": {}
