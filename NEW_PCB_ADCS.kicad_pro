@@ -328,10 +328,6 @@
       ""
     ],
     [
-      "a2302b29-f7b9-40b9-a30f-4dcfdceb0594",
-      "I2C Multiplexer"
-    ],
-    [
       "8584c500-e681-4774-8e2d-f320630e3d46",
       "Connectors"
     ],
@@ -345,7 +341,7 @@
     ],
     [
       "2b7bfac4-b78d-4444-8160-12b42cf2429b",
-      "Magnetorquer"
+      "Magnetorquer Control"
     ],
     [
       "00000000-0000-0000-0000-00005a289551",
@@ -354,10 +350,6 @@
     [
       "ba04218b-8bf3-443f-b78c-44dd521550b8",
       "IMU"
-    ],
-    [
-      "fb1ce4d2-48e3-4325-9179-fbdd6ca04d86",
-      "Sun Sensor"
     ]
   ],
   "text_variables": {}
