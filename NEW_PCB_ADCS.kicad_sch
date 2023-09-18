@@ -755,7 +755,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 129.54 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005a943331)
-    (property "Reference" "J4" (at 131.572 109.4232 0)
+    (property "Reference" "J1" (at 131.572 109.4232 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SWD" (at 131.572 111.7346 0)
@@ -779,7 +779,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957"
-          (reference "J4") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -793,7 +793,7 @@
   (symbol (lib_id "power:GND") (at 121.92 109.22 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005a945b9f)
-    (property "Reference" "#PWR059" (at 115.57 109.22 0)
+    (property "Reference" "#PWR02" (at 115.57 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.6688 109.347 90)
@@ -809,7 +809,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -823,7 +823,7 @@
   (symbol (lib_id "power:VCCQ") (at 121.92 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ce04c56)
-    (property "Reference" "#PWR0105" (at 125.73 104.14 0)
+    (property "Reference" "#PWR01" (at 125.73 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCCQ" (at 118.6942 103.6828 90)
@@ -839,7 +839,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -853,7 +853,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 21.59 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dde5bb4)
-    (property "Reference" "H1" (at 24.13 162.6616 0)
+    (property "Reference" "H2" (at 24.13 162.6616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 24.13 164.973 0)
@@ -869,7 +869,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957"
-          (reference "H1") (unit 1)
+          (reference "H2") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -883,7 +883,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 21.59 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dde5eb7)
-    (property "Reference" "H2" (at 24.13 152.5016 0)
+    (property "Reference" "H1" (at 24.13 152.5016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 24.13 154.813 0)
@@ -899,7 +899,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957"
-          (reference "H2") (unit 1)
+          (reference "H1") (unit 1)
         )
       )
       (project "pq9ish-main-hw"

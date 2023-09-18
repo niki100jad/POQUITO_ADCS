@@ -677,7 +677,7 @@
   (symbol (lib_id "power:GND") (at 168.91 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ce4b660-91b3-46ab-b4a0-43e729eb32ca)
-    (property "Reference" "#PWR048" (at 168.91 104.14 0)
+    (property "Reference" "#PWR070" (at 168.91 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 101.6 0)
@@ -693,7 +693,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -740,7 +740,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "U1") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -777,7 +777,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "C19") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -816,7 +816,7 @@
           (reference "#PWR060") (unit 1)
         )
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -849,7 +849,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -882,7 +882,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -915,7 +915,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -948,7 +948,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -962,7 +962,7 @@
   (symbol (lib_id "power:GND") (at 233.68 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 821cc0d8-7676-46e6-8a36-2244a08e0a18)
-    (property "Reference" "#PWR043" (at 233.68 59.69 0)
+    (property "Reference" "#PWR078" (at 233.68 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 57.15 0)
@@ -978,7 +978,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -1017,7 +1017,7 @@
           (reference "#PWR060") (unit 1)
         )
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -1051,7 +1051,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "C20") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -1071,7 +1071,7 @@
   (symbol (lib_id "power:GND") (at 185.42 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f2edc21-6495-41d9-a34a-e5e08658b1b6)
-    (property "Reference" "#PWR033" (at 185.42 115.57 0)
+    (property "Reference" "#PWR072" (at 185.42 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.42 113.03 0)
@@ -1087,7 +1087,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -1126,7 +1126,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -1140,7 +1140,7 @@
   (symbol (lib_id "power:GND") (at 212.09 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a455e0dc-5a2d-4827-b520-91d958926c6c)
-    (property "Reference" "#PWR045" (at 212.09 100.33 0)
+    (property "Reference" "#PWR074" (at 212.09 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.09 97.79 0)
@@ -1156,7 +1156,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -1176,7 +1176,7 @@
   (symbol (lib_id "Sensor_Motion:BNO055") (at 187.96 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b679ca60-5874-432b-a0df-e6295276981c)
-    (property "Reference" "U2" (at 192.4559 66.04 0)
+    (property "Reference" "U6" (at 192.4559 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BNO055" (at 192.4559 68.58 0)
@@ -1219,7 +1219,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "U2") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -1236,7 +1236,7 @@
   (symbol (lib_id "Device:C") (at 205.74 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4d9bc7d-df49-42b1-8a87-5dd5304baf6d)
-    (property "Reference" "C15" (at 209.55 104.775 0)
+    (property "Reference" "C23" (at 209.55 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 209.55 107.315 0)
@@ -1253,7 +1253,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "C15") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -1262,7 +1262,7 @@
   (symbol (lib_id "power:GND") (at 215.9 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd012b8e-4133-4ea3-8a5d-86eeb890b35a)
-    (property "Reference" "#PWR042" (at 215.9 59.69 0)
+    (property "Reference" "#PWR076" (at 215.9 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 215.9 57.15 0)
@@ -1278,7 +1278,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -1317,7 +1317,7 @@
           (reference "#PWR060") (unit 1)
         )
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -1331,7 +1331,7 @@
   (symbol (lib_id "Device:R") (at 153.67 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d193594f-7812-4487-a650-2b483b53b94f)
-    (property "Reference" "R3" (at 155.448 76.3016 0)
+    (property "Reference" "R16" (at 155.448 76.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 155.448 78.613 0)
@@ -1351,7 +1351,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "R3") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -1371,7 +1371,7 @@
   (symbol (lib_id "Device:C") (at 215.9 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8cd3d94-c320-49fa-b997-b4605d49df67)
-    (property "Reference" "C13" (at 218.821 48.3616 0)
+    (property "Reference" "C24" (at 218.821 48.3616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "120nF" (at 218.821 50.673 0)
@@ -1391,7 +1391,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "C13") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -1431,7 +1431,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "C18") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -1470,7 +1470,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -1503,7 +1503,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -1517,7 +1517,7 @@
   (symbol (lib_id "Device:C") (at 233.68 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9d17715-058c-417f-948b-1f61f3df2e29)
-    (property "Reference" "C14" (at 236.601 48.3616 0)
+    (property "Reference" "C25" (at 236.601 48.3616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 236.601 50.673 0)
@@ -1537,7 +1537,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "C14") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
       (project "pq9ish-main-hw"
@@ -1557,7 +1557,7 @@
   (symbol (lib_id "power:GND") (at 205.74 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fea24c21-75e4-4235-be5b-1bc49e037d19)
-    (property "Reference" "#PWR051" (at 205.74 115.57 0)
+    (property "Reference" "#PWR073" (at 205.74 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 205.74 113.03 0)
@@ -1573,7 +1573,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/ba04218b-8bf3-443f-b78c-44dd521550b8"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
       (project "pq9ish-main-hw"

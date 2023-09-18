@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid dddb19fc-6d17-4d21-a65a-f9b5e9232c8f)
+  (uuid 9fdf0280-bcf4-4e1d-a17a-cab458312110)
 
   (paper "A4")
 
@@ -414,7 +414,7 @@
   (symbol (lib_id "Device:R") (at 116.84 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 013142d0-cadb-446c-8301-de0aa5016341)
-    (property "Reference" "R6" (at 119.38 66.675 0)
+    (property "Reference" "R4" (at 119.38 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "59k" (at 119.38 69.215 0)
@@ -434,7 +434,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "R6") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -443,7 +443,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 170.18 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03b3856e-b977-43a5-b157-afbb9d2c26d0)
-    (property "Reference" "J8" (at 172.72 73.025 0)
+    (property "Reference" "J6" (at 172.72 73.025 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MTQZ" (at 172.72 75.565 0)
@@ -464,7 +464,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "J8") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -473,7 +473,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 127 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05c405e1-f02d-4224-8f0f-b8ab4b1bf0e0)
-    (property "Reference" "J6" (at 129.54 59.055 0)
+    (property "Reference" "J2" (at 129.54 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PANEL1" (at 129.54 61.595 0)
@@ -495,7 +495,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "J6") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -504,7 +504,7 @@
   (symbol (lib_id "Device:R") (at 116.84 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06505e60-b1bf-4a35-b6ca-b103423f5394)
-    (property "Reference" "R12" (at 119.38 145.415 0)
+    (property "Reference" "R7" (at 119.38 145.415 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "59k" (at 119.38 147.955 0)
@@ -524,7 +524,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "R12") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -533,7 +533,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 127 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ecf8427-c220-4ea4-8440-337c6d881e1e)
-    (property "Reference" "J2" (at 129.54 113.665 0)
+    (property "Reference" "J4" (at 129.54 113.665 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PANEL3" (at 129.54 116.205 0)
@@ -553,7 +553,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "J2") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -562,7 +562,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 127 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49cd2e08-1ae3-4da1-9013-763e651f8a85)
-    (property "Reference" "J3" (at 129.54 140.335 0)
+    (property "Reference" "J5" (at 129.54 140.335 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PANEL4" (at 129.54 142.875 0)
@@ -582,7 +582,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "J3") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -591,7 +591,7 @@
   (symbol (lib_id "power:GND") (at 116.84 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5120e0c2-39ee-475f-8788-a179c10fe081)
-    (property "Reference" "#PWR061" (at 116.84 129.54 0)
+    (property "Reference" "#PWR015" (at 116.84 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 128.27 0)
@@ -607,7 +607,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -616,7 +616,7 @@
   (symbol (lib_id "power:VCCQ") (at 115.57 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5aab5f96-da79-40ae-91b4-5e5e7be56593)
-    (property "Reference" "#PWR066" (at 115.57 143.51 0)
+    (property "Reference" "#PWR012" (at 115.57 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCCQ" (at 115.57 135.89 0)
@@ -632,7 +632,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -641,7 +641,7 @@
   (symbol (lib_id "power:VCCQ") (at 109.22 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68bb6e4b-9fbe-4322-9b32-5d008776fdc5)
-    (property "Reference" "#PWR065" (at 109.22 91.44 0)
+    (property "Reference" "#PWR010" (at 109.22 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCCQ" (at 109.22 83.82 0)
@@ -657,7 +657,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -666,7 +666,7 @@
   (symbol (lib_id "power:VCCQ") (at 115.57 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 835734a6-bfb1-4f44-a33c-5e0a40fbf1d7)
-    (property "Reference" "#PWR067" (at 115.57 116.84 0)
+    (property "Reference" "#PWR011" (at 115.57 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCCQ" (at 115.57 109.22 0)
@@ -682,7 +682,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -691,7 +691,7 @@
   (symbol (lib_id "power:GND") (at 116.84 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85db0781-8546-4bbb-8ee2-509a4a176b9c)
-    (property "Reference" "#PWR062" (at 116.84 156.21 0)
+    (property "Reference" "#PWR016" (at 116.84 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 154.94 0)
@@ -707,7 +707,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -716,7 +716,7 @@
   (symbol (lib_id "power:GND") (at 116.84 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9586239a-0712-4b8f-b650-8f99ae21a2f0)
-    (property "Reference" "#PWR058" (at 116.84 77.47 0)
+    (property "Reference" "#PWR013" (at 116.84 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 76.2 0)
@@ -732,7 +732,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -741,7 +741,7 @@
   (symbol (lib_id "power:VCCQ") (at 109.22 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96cb239f-9054-43ab-8f38-a4cd3ddc9c54)
-    (property "Reference" "#PWR064" (at 109.22 64.77 0)
+    (property "Reference" "#PWR09" (at 109.22 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCCQ" (at 109.22 57.15 0)
@@ -757,7 +757,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -766,7 +766,7 @@
   (symbol (lib_id "Device:R") (at 116.84 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5d775fd-3277-4d92-8d7c-461d4809e2be)
-    (property "Reference" "R7" (at 119.38 93.345 0)
+    (property "Reference" "R5" (at 119.38 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "59k" (at 119.38 95.885 0)
@@ -786,7 +786,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "R7") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -795,7 +795,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 127 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf2329ce-81ac-4d98-9670-063801ab0620)
-    (property "Reference" "J7" (at 129.54 85.725 0)
+    (property "Reference" "J3" (at 129.54 85.725 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PANEL2" (at 129.54 88.265 0)
@@ -817,7 +817,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "J7") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -826,7 +826,7 @@
   (symbol (lib_id "power:GND") (at 116.84 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f476a7b7-b760-47a4-b857-138e186c4654)
-    (property "Reference" "#PWR060" (at 116.84 104.14 0)
+    (property "Reference" "#PWR014" (at 116.84 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 102.87 0)
@@ -842,7 +842,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -851,7 +851,7 @@
   (symbol (lib_id "Device:R") (at 116.84 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6475305-355f-49fe-9785-c29d07e46ce9)
-    (property "Reference" "R11" (at 119.38 118.745 0)
+    (property "Reference" "R6" (at 119.38 118.745 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "59k" (at 119.38 121.285 0)
@@ -871,7 +871,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/8584c500-e681-4774-8e2d-f320630e3d46"
-          (reference "R11") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )

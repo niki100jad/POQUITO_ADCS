@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 25373cdc-cde4-4d11-af85-d4b3b735af1a)
+  (uuid 1f811d12-ac6c-43e8-828f-d57925d96d48)
 
   (paper "A4")
 
@@ -475,7 +475,7 @@
   (symbol (lib_id "power:VCCQ") (at 167.64 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e72bb28-becd-49df-85d2-f9108dc74f80)
-    (property "Reference" "#PWR071" (at 167.64 96.52 0)
+    (property "Reference" "#PWR04" (at 167.64 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCCQ" (at 167.64 87.63 0)
@@ -491,7 +491,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/c29ef61c-00a4-4c47-8fd5-831f174cebbb"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -500,7 +500,7 @@
   (symbol (lib_id "power:VCCQ") (at 157.48 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f4d998c-49d3-459a-ba7b-d48efe34a476)
-    (property "Reference" "#PWR072" (at 157.48 152.4 0)
+    (property "Reference" "#PWR03" (at 157.48 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCCQ" (at 157.48 143.51 0)
@@ -516,7 +516,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/c29ef61c-00a4-4c47-8fd5-831f174cebbb"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -525,7 +525,7 @@
   (symbol (lib_id "power:GND") (at 189.23 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 33b299e9-6841-4ed9-a1e6-fb0d3e35822b)
-    (property "Reference" "#PWR070" (at 189.23 93.98 0)
+    (property "Reference" "#PWR07" (at 189.23 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 88.9 0)
@@ -541,7 +541,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/c29ef61c-00a4-4c47-8fd5-831f174cebbb"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -550,7 +550,7 @@
   (symbol (lib_id "Amplifier_Operational:AD8603") (at 179.07 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36db8c25-e26d-4e49-9ba5-91e6627e5af2)
-    (property "Reference" "U3" (at 181.61 92.71 0)
+    (property "Reference" "U1" (at 181.61 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AD8603" (at 184.15 95.25 0)
@@ -570,7 +570,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/c29ef61c-00a4-4c47-8fd5-831f174cebbb"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -579,7 +579,7 @@
   (symbol (lib_id "Device:D_Photo") (at 140.97 106.68 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40f01227-ffb2-4950-9ebb-35668597dae1)
-    (property "Reference" "D4" (at 146.05 105.0925 90)
+    (property "Reference" "D1" (at 146.05 105.0925 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VEMD1060X01" (at 146.05 107.6325 90)
@@ -599,7 +599,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/c29ef61c-00a4-4c47-8fd5-831f174cebbb"
-          (reference "D4") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -608,7 +608,7 @@
   (symbol (lib_id "Device:C") (at 177.8 125.73 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a849e08-926c-4e58-8e39-64f9c407e0e2)
-    (property "Reference" "C21" (at 177.8 130.81 90)
+    (property "Reference" "C1" (at 177.8 130.81 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22pF" (at 177.8 133.35 90)
@@ -625,7 +625,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/c29ef61c-00a4-4c47-8fd5-831f174cebbb"
-          (reference "C21") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -634,7 +634,7 @@
   (symbol (lib_id "power:GND") (at 176.53 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5bb2e6df-2109-4a7b-8480-5d7a1e08919b)
-    (property "Reference" "#PWR068" (at 176.53 113.03 0)
+    (property "Reference" "#PWR06" (at 176.53 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 107.95 0)
@@ -650,7 +650,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/c29ef61c-00a4-4c47-8fd5-831f174cebbb"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -659,7 +659,7 @@
   (symbol (lib_id "Device:R") (at 177.8 119.38 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69645a3b-b1f4-4345-b012-0d9bc8755790)
-    (property "Reference" "R13" (at 177.8 114.3 90)
+    (property "Reference" "R2" (at 177.8 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.1M" (at 177.8 116.84 90)
@@ -676,7 +676,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/c29ef61c-00a4-4c47-8fd5-831f174cebbb"
-          (reference "R13") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -685,7 +685,7 @@
   (symbol (lib_id "Device:R") (at 168.91 148.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 717bc568-2fed-4608-a315-6d55b1e47a4a)
-    (property "Reference" "R14" (at 168.91 143.51 90)
+    (property "Reference" "R1" (at 168.91 143.51 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "50k" (at 168.91 146.05 90)
@@ -702,7 +702,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/c29ef61c-00a4-4c47-8fd5-831f174cebbb"
-          (reference "R14") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -711,7 +711,7 @@
   (symbol (lib_id "power:VCCQ") (at 176.53 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce04582c-fe2f-44dc-9b25-e5fd861a6fcc)
-    (property "Reference" "#PWR069" (at 176.53 86.36 0)
+    (property "Reference" "#PWR05" (at 176.53 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCCQ" (at 176.53 77.47 0)
@@ -727,7 +727,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/c29ef61c-00a4-4c47-8fd5-831f174cebbb"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -736,7 +736,7 @@
   (symbol (lib_id "power:GND") (at 190.5 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dff9001d-4331-4280-969a-269ff1d35f79)
-    (property "Reference" "#PWR073" (at 190.5 154.94 0)
+    (property "Reference" "#PWR08" (at 190.5 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.31 149.86 0)
@@ -752,7 +752,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/c29ef61c-00a4-4c47-8fd5-831f174cebbb"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -761,7 +761,7 @@
   (symbol (lib_id "Device:R") (at 181.61 148.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f201e74e-528b-4688-a962-1ccc974edbfe)
-    (property "Reference" "R16" (at 181.61 143.51 90)
+    (property "Reference" "R3" (at 181.61 143.51 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "50k" (at 181.61 146.05 90)
@@ -778,7 +778,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/c29ef61c-00a4-4c47-8fd5-831f174cebbb"
-          (reference "R16") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -787,7 +787,7 @@
   (symbol (lib_id "Device:C") (at 182.88 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb7713e9-c5ac-49aa-892d-e62ccee27f05)
-    (property "Reference" "C22" (at 182.88 81.28 90)
+    (property "Reference" "C2" (at 182.88 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 182.88 83.82 90)
@@ -804,7 +804,7 @@
     (instances
       (project "NEW_PCB_ADCS"
         (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/c29ef61c-00a4-4c47-8fd5-831f174cebbb"
-          (reference "C22") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
