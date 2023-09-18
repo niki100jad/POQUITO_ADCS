@@ -735,6 +735,10 @@
     (stroke (width 0) (type default))
     (uuid d1997fce-98ae-45cc-b724-0358b854f0ca)
   )
+  (wire (pts (xy 55.88 104.14) (xy 63.5 104.14))
+    (stroke (width 0) (type default))
+    (uuid d73d590e-3289-46f9-a0b9-b65a0122eeee)
+  )
   (wire (pts (xy 113.03 78.74) (xy 121.92 78.74))
     (stroke (width 0) (type default))
     (uuid dd2f6e50-d1b7-481e-b6db-0cf4a1ec8992)
@@ -1493,6 +1497,27 @@
     (instances
       (project "pq9ish-main-hw"
         (path "/619b49ed-1bcd-4c84-8c0f-98372f01728f" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 24.13 92.71) (size 31.75 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c29ef61c-00a4-4c47-8fd5-831f174cebbb)
+    (property "Sheetname" "Photodiode Payload" (at 24.13 91.9984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PD.kicad_sch" (at 24.13 113.6146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "PD_OUT" output (at 55.88 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid b114a486-6b48-4ecf-89d8-fedf8b8b19fd)
+    )
+    (instances
+      (project "NEW_PCB_ADCS"
+        (path "/42c40d7d-71af-4ce9-bac9-d638f259c957" (page "8"))
       )
     )
   )
