@@ -130,11 +130,11 @@
         )
       )
     )
-    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
+    (symbol "power:+3.3VP" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 3.81 -1.27 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+3.3V" (at 0 3.556 0)
+      (property "Value" "+3.3VP" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -143,13 +143,19 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3VP\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+3.3V_0_1"
+      (symbol "+3.3VP_0_0"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3.3VP" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "+3.3VP_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -175,12 +181,6 @@
           (fill (type none))
         )
       )
-      (symbol "+3.3V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
     )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
@@ -195,7 +195,7 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
@@ -218,6 +218,58 @@
       (symbol "GND_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:VCCQ" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "VCCQ" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"VCCQ\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VCCQ_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "VCCQ_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "VCCQ" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -389,39 +441,6 @@
     (uuid e17ef6e9-96ae-4de9-bc26-bcf6220d0789)
   )
 
-  (symbol (lib_id "power:+3.3V") (at 67.31 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 073f916c-a9e9-4573-b411-fc252000f981)
-    (property "Reference" "#PWR023" (at 67.31 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 64.77 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 67.31 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 67.31 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 273db021-2ceb-41f5-8a66-235ed3890e21))
-    (instances
-      (project "NEW_PCB_ADCS"
-        (path "/42c40d7d-71af-4ce9-bac9-d638f259c957"
-          (reference "#PWR023") (unit 1)
-        )
-        (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/2b7bfac4-b78d-4444-8160-12b42cf2429b"
-          (reference "#PWR042") (unit 1)
-        )
-      )
-      (project "pq9ish-main-hw"
-        (path "/619b49ed-1bcd-4c84-8c0f-98372f01728f"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 102.87 129.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10ffa2cf-6c56-4aec-babe-d72178974055)
@@ -581,6 +600,34 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3VP") (at 67.31 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3fc1dbda-0441-4e37-8415-96fc5969a380)
+    (property "Reference" "#PWR060" (at 71.12 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3VP" (at 67.31 82.55 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 67.31 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 67.31 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 08955b9a-ee8e-42bb-b121-7270cd0314c8))
+    (instances
+      (project "NEW_PCB_ADCS"
+        (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/00000000-0000-0000-0000-00005a289551"
+          (reference "#PWR060") (unit 1)
+        )
+        (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/2b7bfac4-b78d-4444-8160-12b42cf2429b"
+          (reference "#PWR042") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 97.79 138.43 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e2a526a-ca73-4c92-a44a-a99ef1016a72)
@@ -680,40 +727,7 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 67.31 125.73 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6896d987-0b0f-4487-92c7-08dc169cc844)
-    (property "Reference" "#PWR023" (at 67.31 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 64.77 120.65 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 67.31 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 67.31 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 223900b1-1af3-420a-bc2a-6abc00098f80))
-    (instances
-      (project "NEW_PCB_ADCS"
-        (path "/42c40d7d-71af-4ce9-bac9-d638f259c957"
-          (reference "#PWR023") (unit 1)
-        )
-        (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/2b7bfac4-b78d-4444-8160-12b42cf2429b"
-          (reference "#PWR044") (unit 1)
-        )
-      )
-      (project "pq9ish-main-hw"
-        (path "/619b49ed-1bcd-4c84-8c0f-98372f01728f"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 97.79 124.46 0) (unit 1)
+  (symbol (lib_id "power:VCCQ") (at 97.79 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f1eb7ab-a83f-4bf5-80ee-8b9dc5ab4942)
     (property "Reference" "#PWR023" (at 97.79 128.27 0)
@@ -1041,6 +1055,34 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3VP") (at 67.31 44.45 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ca9062a9-02fa-4a29-ab9c-4a48b059b4df)
+    (property "Reference" "#PWR060" (at 71.12 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3VP" (at 67.31 40.64 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 67.31 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 67.31 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0622649d-8296-431b-ac4a-33cb08217440))
+    (instances
+      (project "NEW_PCB_ADCS"
+        (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/00000000-0000-0000-0000-00005a289551"
+          (reference "#PWR060") (unit 1)
+        )
+        (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/2b7bfac4-b78d-4444-8160-12b42cf2429b"
+          (reference "#PWR040") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 62.23 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd96f4b8-471d-4fcb-a8e6-5d1f7cc11578)
@@ -1115,40 +1157,7 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 67.31 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e1245d28-6ad1-4cb6-a1c6-c3aa0c340b66)
-    (property "Reference" "#PWR023" (at 67.31 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 64.77 39.37 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 67.31 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 67.31 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ad64737c-7203-4040-8523-89fbdf6d9de4))
-    (instances
-      (project "NEW_PCB_ADCS"
-        (path "/42c40d7d-71af-4ce9-bac9-d638f259c957"
-          (reference "#PWR023") (unit 1)
-        )
-        (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/2b7bfac4-b78d-4444-8160-12b42cf2429b"
-          (reference "#PWR040") (unit 1)
-        )
-      )
-      (project "pq9ish-main-hw"
-        (path "/619b49ed-1bcd-4c84-8c0f-98372f01728f"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 97.79 43.18 0) (unit 1)
+  (symbol (lib_id "power:VCCQ") (at 97.79 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e452a8d7-95cf-439b-a7c4-7dabebc427a9)
     (property "Reference" "#PWR023" (at 97.79 46.99 0)
@@ -1214,7 +1223,35 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 97.79 85.09 0) (unit 1)
+  (symbol (lib_id "power:+3.3VP") (at 67.31 125.73 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e8ff0926-fa3f-49dc-b65b-4b84fe39d207)
+    (property "Reference" "#PWR060" (at 71.12 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3VP" (at 67.31 121.92 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 67.31 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 67.31 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 58afe388-1da4-41ea-8f5f-d3afa6617245))
+    (instances
+      (project "NEW_PCB_ADCS"
+        (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/00000000-0000-0000-0000-00005a289551"
+          (reference "#PWR060") (unit 1)
+        )
+        (path "/42c40d7d-71af-4ce9-bac9-d638f259c957/2b7bfac4-b78d-4444-8160-12b42cf2429b"
+          (reference "#PWR044") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCCQ") (at 97.79 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ebe012df-785b-49f0-869c-7370a0cd05ba)
     (property "Reference" "#PWR023" (at 97.79 88.9 0)
