@@ -458,7 +458,7 @@
     (property "Datasheet" "https://www.molex.com/en-us/products/part-detail/533980371?display=pdf" (at 175.26 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "533980371" (at 175.26 76.2 0)
+    (property "MPN" "SQT-102-03-F-S" (at 175.26 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MF" "Samtec Inc." (at 175.26 76.2 0)
