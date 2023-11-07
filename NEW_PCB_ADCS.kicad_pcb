@@ -7249,7 +7249,7 @@
   (gr_text "D+" (at 210.85 64.05) (layer "F.SilkS") (tstamp 25982dc4-ccd1-421a-9bd0-10d3d0f7373e)
     (effects (font (size 0.5 0.5) (thickness 0.1) bold) (justify left bottom))
   )
-  (gr_text "Designed by\nNiki Sajjad" (at 194.4 79.2) (layer "F.SilkS") (tstamp 2c1e7f23-eb01-49cf-9968-d1088e81821f)
+  (gr_text "Designed by\nNiki Sajjad, Konstantinos Kanavouras" (at 194.4 79.2) (layer "F.SilkS") (tstamp 2c1e7f23-eb01-49cf-9968-d1088e81821f)
     (effects (font (size 0.5 0.5) (thickness 0.1) bold) (justify bottom))
   )
   (gr_text "D-" (at 210.85 66.05) (layer "F.SilkS") (tstamp 409ba526-0d94-4700-a861-ef53104a5d6c)
