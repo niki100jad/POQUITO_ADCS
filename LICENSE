@@ -513,3 +513,20 @@ notice and without involvement of a court if the Licensee fails to
 comply with any of its terms and conditions, or if the Licensee
 initiates legal action against Licensor in relation to this
 Licence. Section 5 shall continue to apply.
+
+===============================================================================
+This project is a modification of the librespacefoundation/pq9ish/pq9ish-comms-vu-hw
+project, licensed under CERN OHL v1.2.
+
+CHANGES:
+For a complete listing of changes, please refer to the git commit history.
+- Relicensed to CERN-OHL-v2-W
+- Removed RadioFrequency-related components
+- Added ADCS attitude determination and magnetorquer control components
+- Added ADCS-related connectors
+- Added a photodiode related to POQUITO's payload
+
+Original license from qubik-spb repository:
+https://gitlab.com/librespacefoundation/pq9ish/pq9ish-comms-vu-hw
+(c) Copyright Libre Space Foundation
+===============================================================================
