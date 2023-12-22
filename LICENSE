@@ -526,7 +526,7 @@ For a complete listing of changes, please refer to the git commit history.
 - Added ADCS-related connectors
 - Added a photodiode related to POQUITO's payload
 
-Original license from qubik-spb repository:
+Original license from pq9ish repository:
 https://gitlab.com/librespacefoundation/pq9ish/pq9ish-comms-vu-hw
 (c) Copyright Libre Space Foundation
 ===============================================================================
