@@ -1667,7 +1667,7 @@
     (property "Value" "Crystal" (at 173.99 123.825 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm" (at 170.18 121.92 0)
+    (property "Footprint" "Crystal:Crystal_SMD_ECS_CSM3X-2Pin_7.6x4.1mm" (at 170.18 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://ecsxtal.com/store/pdf/csm-7x.pdf" (at 170.18 121.92 0)

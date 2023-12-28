@@ -767,7 +767,7 @@
     (property "Datasheet" "" (at 129.54 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part Number" "SM06B-SRSS-TB" (at -72.39 215.9 0)
+    (property "Part Number" "53261-0671" (at -72.39 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c7ff06ca-c7c4-415d-b7e6-790c97e2cc2b))
